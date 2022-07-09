@@ -1,0 +1,66 @@
+{
+  "state": {
+    "tasks": [
+      {
+        "name": "task-1",
+        "tag": "Viikonloppu",
+        "title": "Partytime!",
+        "desc": "Partytime 15.7. Seinäjoella!",
+        "date": "Added: 7/7/2022, 11:45:21 AM",
+        "id": 1
+      },
+      {
+        "name": "task-2",
+        "tag": "Viikonloppu",
+        "title": "KOva meno",
+        "desc": "aoskfdoaksofas",
+        "date": "Added: 7/7/2022, 11:50:27 AM",
+        "id": 2
+      },
+      {
+        "name": "task-3",
+        "tag": "Roskat",
+        "title": "Vie roskat",
+        "desc": "hgfhgf",
+        "date": "Modified: 7/7/2022, 11:51:21 AM",
+        "id": 3
+      }
+    ],
+    "columns": {
+      "column-1": {
+        "id": "column-1",
+        "title": "Stuff to do:",
+        "taskIds": [
+          "task-1"
+        ]
+      },
+      "column-2": {
+        "id": "column-2",
+        "title": "In progress:",
+        "taskIds": [
+          "task-2"
+        ]
+      },
+      "column-3": {
+        "id": "column-3",
+        "title": "Done:",
+        "taskIds": [
+          "task-3"
+        ]
+      }
+    },
+    "columnOrder": [
+      "column-1",
+      "column-2",
+      "column-3"
+    ],
+    "tags": [
+      "Viikonloppu",
+      "Roskat"
+    ]
+  },
+  "colors": {
+    "background": "linear-gradient(to right, #012276, #0082c8, #0082c8, #012276)",
+    "text": "whitesmoke"
+  }
+}

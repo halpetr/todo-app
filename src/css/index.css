@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black,
+    0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+/* LIST */
+#list-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.446);
+}
+
+/* STUFF */
+#stuff-container {
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+/* MyCard */
+#row {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-row {
+  margin: auto;
+}
+
+#tag {
+  color: white;
+  background-color: black;
+  max-width: max-content;
+  margin: auto;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  line-height: 25px;
+}
+
+#date {
+  color: white;
+  background-color: black;
+  max-width: max-content;
+  margin: auto;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  line-height: 25px;
+}
+
+#title {
+  color: white;
+  background-color: black;
+  min-width: fit-content;
+  word-wrap: break-word;
+  margin: auto;
+  margin-bottom: 1%;
+  border-radius: 25px;
+  line-height: 25px;
+  padding: 3px;
+}
+
+#desc {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.816);
+  max-width: max-content;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 25px;
+  line-height: 25px;
+}
+
+#card-col {
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+#card-footer {
+  color: orange;
+  margin-top: 5%;
+  border: none;
+  background-color: transparent;
+}
+
+#card-btn {
+  color: orange;
+  background-color: black;
+  border: 1px orange solid;
+}
+
+#filter-btn {
+  color: orange;
+  background-color: black;
+  border: 1px orange solid;
+}
+
+/* MYFORM */
+#form {
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+  padding: 3%;
+  color: whitesmoke;
+  background-color: black;
+  text-shadow: none;
+  border-radius: 10px;
+}
+
+#form-submit-btn {
+  background: black;
+  border: orange 1px solid;
+  color: orange;
+}
+
+#dropdownButton {
+  background: black;
+  border: orange 1px solid;
+  color: orange;
+}
+
+/* STUFF */
+#btn-addTask {
+  background: black;
+  border: orange 1px solid;
+  color: orange;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#modal {
+  margin-top: 10vh;
+}
+
+#edit-modal {
+  margin-top: 10vh;
+  padding: 5%;
+}
+
+#modal-ask {
+  margin-top: 40vh;
+  padding: 5%;
+  width: fit-content;
+}
+
+#filter-modal {
+  margin-top: 9vh;
+  margin-left: 70vw;
+  width: fit-content;
+  text-shadow: none;
+}
+
+#filter-body {
+  background-color: black;
+}
+
+#filter-footer {
+  background-color: black;
+  border-top-color: orange;
+}
+
+#modal-body {
+  background-color: black;
+  color: whitesmoke;
+  text-shadow: none;
+}
+
+#modal-footer {
+  background-color: black;
+  border-top: none;
+}
+
+#modal-btn {
+  background: black;
+  border: orange 1px solid;
+  color: orange;
+}
+
+#ask-btn {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* NAVBAR */
+#bar {
+  background: black;
+  position: sticky;
+  top: 0;
+  flex-grow: 0;
+}
+
+#brand {
+  text-decoration: none;
+  color: orange;
+}
+
+#nav {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#link {
+  border: 1px solid orange;
+  border-radius: 15px;
+}
+
+/* NOT FOUND */
+#nf {
+  text-align: center;
+  color: whitesmoke;
+}
+
+#nf-link {
+  color: white;
+}
+
+/* INFO */
+#info {
+  text-align: center;
+  padding: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  #list-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 33%;
+  }
+  #stuff-container {
+    flex-direction: row;
+  }
+}
