@@ -1,3 +1,6 @@
+# Todo app for making lists of tasks.
+Created by using **React** for the frontend and **json-server** for the backend.
+
 # How to run the app:
 Download zip.
 
