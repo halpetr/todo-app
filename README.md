@@ -8,7 +8,7 @@ Unzip.
 
 Open the directory in a terminal.
 
-Type: npm install to install needed dependencies.
+Type: **npm install** to install needed dependencies.
 
 Type: **npm run server** to start the json-server
 
