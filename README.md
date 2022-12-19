@@ -6,11 +6,13 @@ Download zip.
 
 Unzip. 
 
-Open the directory in a CLI.
+Open the directory in a terminal.
 
-Type: **npm run server** | to start the json-server
+Type: npm install to install needed dependencies.
 
-Open another CLI instance in the same directory.
+Type: **npm run server** to start the json-server
+
+Open another terminal in the same directory.
 
 Type: **npm start**
 
